@@ -6,8 +6,8 @@ import java.util.regex.Pattern;
 public class Regex {
 	public static void main( String args[] ) {
 	      // String to be scanned to find the pattern.
-	      String line = "Hiig5";
-	      String pattern = "[a-zA-Z0-9]{3,5}";
+	      String line = "HiiAshutosh";
+	      String pattern = "[a-zA-Z]{3,}";
 
 	      // Create a Pattern object
 	      Pattern r = Pattern.compile(pattern);
