@@ -7,7 +7,7 @@ public class Regex {
 	public static void main( String args[] ) {
 	      // String to be scanned to find the pattern.
 	      String line = "HiiAshutosh";
-	      String pattern = "[a-zA-Z]{3,}";
+	      String pattern = "[a-zA-Z]{3,18}";
 
 	      // Create a Pattern object
 	      Pattern r = Pattern.compile(pattern);
