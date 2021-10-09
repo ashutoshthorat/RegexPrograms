@@ -8,7 +8,7 @@ public class Regex {
 	      // String to be scanned to find the pattern.
 	      String line = "HiiAshutosh";
 	      String pattern = "[a-zA-Z]{3,}";
-
+	      System.out.println("hello");
 	      // Create a Pattern object
 	      Pattern r = Pattern.compile(pattern);
 
